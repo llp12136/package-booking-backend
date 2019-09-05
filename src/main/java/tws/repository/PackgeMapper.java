@@ -2,12 +2,12 @@ package tws.repository;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import tws.entity.Employee;
+import tws.entity.Packge;
 
 import java.util.List;
 
 @Mapper
-public interface EmployeeMapper {
-    List<Employee> selectAll();
-    void insert(@Param("employee") Employee employee);
+public interface PackgeMapper {
+    List<Packge> selectAll();
+    void insert(@Param("packge") Packge packge);
 }

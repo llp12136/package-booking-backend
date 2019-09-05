@@ -1,5 +1,9 @@
-CREATE TABLE employee (
-  id INTEGER PRIMARY KEY,
+CREATE TABLE packge (
+  id VARCHAR (64)PRIMARY KEY,
   name VARCHAR(64) NOT NULL,
-  age   int(4) NOT NULL
+  phone   VARCHAR(64) NOT NULL,
+  status  VARCHAR(64) ,
+  time   DATE,
+  weight VARCHAR(64)
+
 );
